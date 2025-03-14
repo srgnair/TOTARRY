@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/top.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <title>TOTARRY</title>
 </head>
 <body>
@@ -38,26 +39,32 @@
         <section class="item-details__info">
             <h2>TOTALLY Short Sleeve Shirt</h2>
             <p>
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             </p>
-            <p>￥9,999<span>+tax</span></p>
+            <p>￥9,999<span> +tax</span></p>
         </section>
 
         <div class="item-details__shopping">
             <form action="#">
                 <table>
-                    <tbody>
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 60%;"> <!-- 右のセルを広く -->
+                    </colgroup>
+                    <thead>
                         <tr>
                             <th>Color</th>
                             <th>Size</th>
                             <th></th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <th>White</th>
                             <td>S</td>
                             <td>
-                                <select name="number" id="number">
+                                <select name="number-s" id="number-s">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -68,7 +75,7 @@
                             <th>White</th>
                             <td>M</td>
                             <td>
-                                <select name="number" id="number">
+                                <select name="number-m" id="number-m">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -79,7 +86,7 @@
                             <th>White</th>
                             <td>L</td>
                             <td>
-                                <select name="number" id="number">
+                                <select name="number-l" id="number-l">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -94,13 +101,15 @@
 
         <div class="item-detail__size-info">
             <table>
-                <tbody>
+                <thead>
                     <tr>
                         <th>Size</th>
                         <th>Chest</th>
                         <th>Weist</th>
                         <th>Height</th>
                     </tr>
+                </thead>
+                    <tbody>
                     <tr>
                         <th>S</th>
                         <td>99 ～ 99</td>

@@ -18,6 +18,7 @@ body {
     background-color: #f5f5f5;
     color: #333;
     font-size: 0.75rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -49,10 +50,11 @@ table {
 td,
 th {
     border: none;
-    border-left: 1px solid #333;
-    border-top: 1px solid #333;
+    border-left: 1px solid #c3c3c3;
+    border-top: 1px solid #c3c3c3;
     padding: 10px;
     text-align: center;
+    font-weight: normal;
 }
 
 td:first-child,
@@ -63,6 +65,10 @@ th:first-child {
 tr:first-child td,
 tr:first-child th {
     border-top: none;
+}
+
+p{
+    line-height: 1.9;
 }
 
 /*-------------------------------------------
@@ -138,6 +144,8 @@ main{
 .item-details__shopping select{
     width: 100%;
     cursor: pointer;
+    border: #c3c3c3 solid 1px;
+    padding: 3px 10px;
 }
 
 .item-details__shopping button{

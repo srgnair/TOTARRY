@@ -1,16 +1,16 @@
 @media screen and (max-width:896px) {
     header{
-        padding: 0 10px;
+        padding: 0 16px;
         margin: 0 auto 10px;
+    }
+
+    header h1{
+        margin: 36px auto 26px;
     }
 
     header nav{
         overflow-x: scroll;
         white-space: nowrap;
-    }
-
-    header ul{
-        padding-inline-start: 40px;
     }
 
     header ul:first-of-type{
@@ -23,7 +23,7 @@
     }
 
     .item-details{
-        padding: 0 10px;
+        padding: 0 16px;
         margin: 0 auto;
     }
 }
