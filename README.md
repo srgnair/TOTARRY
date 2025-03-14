@@ -9,11 +9,7 @@ HTML/CSSの学習を目的として、デザインカンプを元にコーディ
 
 1.PC版
 
-![Image](https://github.com/user-attachments/assets/db892d6b-884e-4447-aadb-6e36720e6a91)
-
-2.レスポンシブ版(ブレークポイント600px)<br>
-
-<img src="https://github.com/user-attachments/assets/c0a2cabc-552c-4bbf-8bf8-3ba4f04ced3f" width="350px">
+現在製作中です。
 
 ## 使用技術
 
