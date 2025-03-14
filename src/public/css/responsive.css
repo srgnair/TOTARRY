@@ -1,0 +1,29 @@
+@media screen and (max-width:896px) {
+    header{
+        padding: 0 16px;
+        margin: 0 auto 10px;
+    }
+
+    header h1{
+        margin: 36px auto 26px;
+    }
+
+    header nav{
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    header ul:first-of-type{
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item-details{
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+}
