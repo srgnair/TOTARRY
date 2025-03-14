@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-    <h1><img src="{{ asset('images/logo.svg') }}" alt="TOTARRY"></h1>
+    <h1><a href="#"><img src="{{ asset('images/logo.svg') }}" alt="TOTARRY"></a></h1>
     <nav>
         <ul>
             <li><a href="#">ALL</a></li>
@@ -43,7 +43,7 @@
             </p>
             <p>￥9,999<span>+tax</span></p>
         </section>
-        
+
         <div class="item-details__shopping">
             <form action="#">
                 <table>
@@ -128,6 +128,5 @@
 <footer>
     <p>&copy; TOTALLY</p>
 </footer>
-
 </body>
 </html>
